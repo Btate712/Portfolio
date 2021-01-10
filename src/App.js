@@ -1,10 +1,10 @@
 import './App.css';
-import Card from './components/Card';
+import Cards from './containers/Cards';
 
 function App() {
   return (
     <div className="App">
-      <Card word="2048 Clone" />
+      <Cards />
     </div>
   );
 }

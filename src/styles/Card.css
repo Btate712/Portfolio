@@ -4,14 +4,25 @@
   border-radius: 10px;
   height: 198px;
   background-color: #444;
+  position: relative;
+  margin: 20px;
 }
 
 .Card p {
-  font-size: xx-large;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: end;
-  vertical-align: bottom;
   font-weight: bold;
   color: dodgerblue;
-  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: end;
+  padding-right: 30px;
+}
+
+.focus {
+  font-size: xx-large;
+}
+
+.unfocus {
+  font-size: small;
 }
