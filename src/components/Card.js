@@ -11,7 +11,9 @@ const Card = props => {
       onMouseEnter={ () => setHasFocus(true) }
       onMouseLeave={ () => setHasFocus(false) }
     >
-      <p className={ hasFocus ? "focus" : "unfocus" }>{props.word}</p>
+      <p className={ hasFocus ? "focus" : "unfocus" }>
+        { hasFocus ? props.description : props.word }
+      </p>
     </div>
   )
 }

@@ -20,9 +20,9 @@
 }
 
 .focus {
-  font-size: xx-large;
+  font-size: large;
 }
 
 .unfocus {
-  font-size: small;
+  font-size: xx-large;
 }
