@@ -6,7 +6,7 @@ const Card = props => {
   const [ hasFocus, setHasFocus ] = useState(false);
 
   return(
-    <a href={ props.location }>
+    <a href={ props.location } target="_">
       <div 
         className="Card"
         onMouseEnter={ () => setHasFocus(true) }
