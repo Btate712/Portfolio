@@ -3,7 +3,9 @@ import '../styles/Card.css';
 
 const Card = props => {
   return(
-    <h1 className="Card" >{props.word}</h1>
+    <div className="Card">
+      <p>{props.word}</p>
+    </div>
   )
 }
 
