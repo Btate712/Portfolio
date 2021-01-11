@@ -1,0 +1,20 @@
+.MyHeader {
+  display: flex;
+  background-color: #444;
+  color: dodgerblue;
+}
+
+.MyHeader a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+.MyHeader a div {
+  padding: 10px 30px 10px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.MyHeader a div:hover {
+  background-color: dodgerblue;
+  color:#444;
+}
