@@ -17,8 +17,10 @@ const Cards = props => {
   }
 
   return (
-    <div className='Cards'>
-      { mapProjects() }
+    <div className="CardsWrapper">
+      <div className='Cards'>
+        { mapProjects() }
+      </div>
     </div>
   )
 }
