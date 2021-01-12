@@ -5,7 +5,7 @@ import "../styles/MyHeader.css";
 
 const MyHeader = props => {
   return (
-    <div className="MyHeader">
+    <nav className="MyHeader">
       <HeaderChoice
         location="#"
         word="About"
@@ -14,7 +14,7 @@ const MyHeader = props => {
         location="#"
         word="Contact"
       />
-    </div>
+    </nav>
   );
 }
 
