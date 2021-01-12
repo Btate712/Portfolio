@@ -3,7 +3,7 @@ import Card from '../components/Card';
 import '../styles/Cards.css';
 import portfolio from '../data/portfolio.js'
 
-const Cards = props => {
+const Cards = ({ isMobile }) => {
   const mapProjects = () => {
     return portfolio.map(project => {
       return(
@@ -11,6 +11,7 @@ const Cards = props => {
           word={ project.title }
           description={ project.description }
           location={ project.location }
+          isMobile={ isMobile }
         />
       );
     });
