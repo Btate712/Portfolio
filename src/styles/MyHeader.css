@@ -1,7 +1,11 @@
 .MyHeader {
+  position: sticky;
+  top: 0;
+  width: 100%;
   display: flex;
-  background-color: #444;
+  background-color: #333;
   color: dodgerblue;
+  z-index: 5;
 }
 
 .MyHeader a {
