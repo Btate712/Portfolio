@@ -17,6 +17,7 @@ const Cards = ({ isMobile }) => {
           id={ index }
           word={ project.title }
           description={ project.description }
+          codeLocation={ project.codeLocation }
           location={ project.location }
           isMobile={ isMobile }
           focus={ mobileFocus === index }

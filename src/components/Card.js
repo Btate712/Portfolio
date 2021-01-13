@@ -2,22 +2,22 @@ import React, { useState, useEffect } from 'react';
 import '../styles/Card.css';
 
 
-const Card = ({ isMobile, description, word, location, handleMobileClick, focus, id }) => {
+const Card = ({ isMobile, description, word, codeLocation, location, handleMobileClick, focus, id }) => {
   const [ hasFocus, setHasFocus ] = useState(false);
   
-  const mobileLink = () => {
+  const links = () => {
     return (
       <>
         <br />
         <br />
         <a href={ location } target="_blank">Launch</a>
+        <a href={ codeLocation } target="_blank">Code</a>
       </>
     )
   }
 
   const mobileClick = () => {
     handleMobileClick(id);
-    // setHasFocus(focus);
   }
 
   const mobileVersion = () => {
@@ -28,26 +28,25 @@ const Card = ({ isMobile, description, word, location, handleMobileClick, focus,
       >
         <p className={ hasFocus ? "focus" : "unfocus" }>
           { hasFocus ? description : word }
-          { hasFocus ? mobileLink() : "" }
+          { hasFocus ? links() : "" }
         </p>
       </div>
     );
   }
-
+  
   const nonMobileVersion = () => {
     return(
-      <a href={ location } target="_blank">
-        <div 
-          className="Card"
-          onMouseEnter={ () => setHasFocus(true) }
-          onMouseLeave={ () => setHasFocus(false) }
+      <div 
+        className="Card"
+        onMouseEnter={ () => setHasFocus(true) }
+        onMouseLeave={ () => setHasFocus(false) }
         >
-          <p className={ hasFocus ? "focus" : "unfocus" }>
-            { hasFocus ? description : word }
-          </p>
-        </div>
-      </a>
-    )
+        <p className={ hasFocus ? "focus" : "unfocus" }>
+          { hasFocus ? description : word }
+          { hasFocus ? links() : "" }
+        </p>
+      </div>
+    );
   }
 
   useEffect(() => {
