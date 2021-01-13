@@ -1,5 +1,10 @@
 const portfolio = [
   {
+    "title": "Portfolio App",
+    "description": "This Page - A React app written to display my projects" ,
+    "location": "/",
+    "codeLocation": "https://github.com/Btate712/portfolio"
+  },{
     "title": "2048 Clone",
     "description": "A clone of the game 2048 written in vanilla JS",
     "location": "http://www.thetater.net/game2448.html",

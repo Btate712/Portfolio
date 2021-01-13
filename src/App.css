@@ -3,7 +3,14 @@ html, body {
   padding: 0;
 }
 
+.App-Wrapper {
+  display: flex;
+}
+
 .App {
-  width: 100%;
+  display: inline-block;
+  max-width: 1500px;
   text-align: center;
+  background-color: lightblue;
+  margin: 0 auto;
 }

@@ -14,10 +14,12 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <MyHeader isMobile={ isMobile }/>
-      <Welcome isMobile={ isMobile }/>
-      <Cards isMobile={ isMobile }/>
+    <div className="App-Wrapper">
+      <div className="App">
+        <MyHeader isMobile={ isMobile }/>
+        <Welcome isMobile={ isMobile }/>
+        <Cards isMobile={ isMobile }/>
+      </div>
     </div>
   );
 }
