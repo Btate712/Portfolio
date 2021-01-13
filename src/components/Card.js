@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/Card.css';
 
 
-const Card = ({ isMobile, description, word, location }) => {
+const Card = ({ isMobile, description, word, location, handleMobileClick, focus, id }) => {
   const [ hasFocus, setHasFocus ] = useState(false);
   
   const mobileLink = () => {
@@ -15,11 +15,16 @@ const Card = ({ isMobile, description, word, location }) => {
     )
   }
 
+  const mobileClick = () => {
+    handleMobileClick(id);
+    // setHasFocus(focus);
+  }
+
   const mobileVersion = () => {
     return (
       <div 
         className="Card"
-        onClick={ () => hasFocus ? setHasFocus(false) : setHasFocus(true) }
+        onClick={ mobileClick }
       >
         <p className={ hasFocus ? "focus" : "unfocus" }>
           { hasFocus ? description : word }
@@ -44,6 +49,10 @@ const Card = ({ isMobile, description, word, location }) => {
       </a>
     )
   }
+
+  useEffect(() => {
+    setHasFocus(focus);
+  }, [focus]);
 
   return isMobile ? mobileVersion() : nonMobileVersion();
 }
