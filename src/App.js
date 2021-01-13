@@ -1,7 +1,16 @@
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
 import './App.css';
+
 import Cards from './containers/Cards';
 import MyHeader from './components/MyHeader';
 import Welcome from './components/Welcome';
+import About from './components/About';
 
 function App() {
 
@@ -14,13 +23,22 @@ function App() {
   }
 
   return (
-    <div className="App-Wrapper">
-      <div className="App">
-        <MyHeader isMobile={ isMobile }/>
-        <Welcome isMobile={ isMobile }/>
-        <Cards isMobile={ isMobile }/>
+    <Router>
+      <div className="App-Wrapper">
+        <div className="App">
+          <MyHeader isMobile={ isMobile }/>
+          <Switch>
+            <Route path="/about">
+              <About isMobile={ isMobile }/>
+            </Route>
+            <Route path="/">
+              <Welcome isMobile={ isMobile }/>
+              <Cards isMobile={ isMobile }/>
+            </Route>
+          </Switch>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 

@@ -9,7 +9,7 @@ html, body {
 
 .App {
   display: inline-block;
-  max-width: 1500px;
+  max-width: 1080px;
   text-align: center;
   background-color: lightblue;
   margin: 0 auto;

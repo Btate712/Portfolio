@@ -1,0 +1,10 @@
+.About {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
+  max-width: 1080px;
+}
+
+.About p {
+  margin: 20px;
+  text-align: left;
+}

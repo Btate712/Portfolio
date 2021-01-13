@@ -7,7 +7,7 @@ const MyHeader = props => {
   return (
     <nav className="MyHeader">
       <HeaderChoice
-        location="#"
+        location="./about"
         word="About"
       />
       <HeaderChoice
