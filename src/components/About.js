@@ -6,8 +6,8 @@ import "../styles/About.css";
 const About = ({ isMobile }) => {
   return (
   <div className="About">
-    <h1>About Me</h1>
     <img src={ face } width="200px" />
+    <h1>About Me</h1>
     <p>
       I'm a US Navy veteran with a background in nuclear operations and training
       and I'm excited about starting a new career in software development.

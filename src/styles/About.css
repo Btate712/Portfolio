@@ -2,14 +2,19 @@
   font-family: Arial, Helvetica, sans-serif;
   color: darkblue;
   max-width: 1080px;
+  text-align: left;
 }
 
 .About img {
-  float: left;
+  float: right;
   margin: 10px 30px 20px 20px;
+}
+
+.About h1 {
+  margin: 30px;
+  text-decoration: underline;
 }
 
 .About p {
   margin: 20px;
-  text-align: left;
 }
