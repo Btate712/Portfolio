@@ -11,6 +11,7 @@ import Cards from './containers/Cards';
 import MyHeader from './components/MyHeader';
 import Welcome from './components/Welcome';
 import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -30,6 +31,9 @@ function App() {
           <Switch>
             <Route path="/about">
               <About isMobile={ isMobile }/>
+            </Route>
+            <Route path="/contact">
+              <Contact isMobile={ isMobile } />          
             </Route>
             <Route path="/">
               <Welcome isMobile={ isMobile }/>

@@ -11,7 +11,7 @@ const MyHeader = props => {
         word="About"
       />
       <HeaderChoice
-        location="#"
+        location="./contact"
         word="Contact"
       />
     </nav>

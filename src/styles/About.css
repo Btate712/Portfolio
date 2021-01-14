@@ -3,11 +3,13 @@
   color: darkblue;
   max-width: 1080px;
   text-align: left;
+  padding: 20px;
 }
 
 .About img {
   float: right;
   margin: 10px 30px 20px 20px;
+  border-radius: 30px;
 }
 
 .About h1 {
@@ -17,4 +19,15 @@
 
 .About p {
   margin: 20px;
+}
+
+.About .link {
+  color: darkblue;
+  font-weight: bold;
+  border: 1px solid darkblue;
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  float: right;
 }
