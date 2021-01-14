@@ -1,7 +1,35 @@
 .Contact {
   font-family: Arial, Helvetica, sans-serif;
   color: darkblue;
-  width: 1080px;
+  max-width: 1080px;
   text-align: left;
   padding: 20px;
 }
+
+.Contact .link {
+  color: darkblue;
+  background-color: lightgray;
+  font-weight: bold;
+  border: 1px solid darkblue;
+  padding: 10px;
+  margin: 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.Contact input {
+  width: 500px;
+  margin-bottom: 30px;
+  color: lightgray;
+}
+
+.Contact textarea {
+  color: lightgray;
+  margin-bottom: 30px;
+}
+.Contact label {
+  font-weight: bold;
+  font-size: large;
+}
+
+
