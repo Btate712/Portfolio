@@ -10,7 +10,9 @@ const Card = ({ isMobile, description, word, codeLocation, location, handleMobil
       <div className="links">
         <br />
         <br />
-        <a href={ location } target="_blank">Launch</a>
+        { location &&
+          <a href={ location } target="_blank">Launch</a>
+        }
         <a href={ codeLocation } target="_blank">Code</a>
       </div>
     )
