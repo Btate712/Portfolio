@@ -19,6 +19,5 @@
 }
 
 .MyHeader a div:hover {
-  background-color: #333;
-  color: dodgerblue;
+  background-color: #444;
 }
