@@ -9,9 +9,10 @@ import './App.css';
 
 import Cards from './containers/Cards';
 import MyHeader from './components/MyHeader';
+import Social from './components/Social';
 import Welcome from './components/Welcome';
 import About from './components/About';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 
 function App() {
 
@@ -32,14 +33,15 @@ function App() {
             <Route path="/about">
               <About isMobile={ isMobile }/>
             </Route>
-            <Route path="/contact">
+            {/* <Route path="/contact">
               <Contact isMobile={ isMobile } />          
-            </Route>
+            </Route> */}
             <Route path="/">
               <Welcome isMobile={ isMobile }/>
               <Cards isMobile={ isMobile }/>
             </Route>
           </Switch>
+          <Social />
         </div>
       </div>
     </Router>

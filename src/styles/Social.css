@@ -1,0 +1,10 @@
+.Social {
+  color: darkblue;
+  font-size: xx-large;
+}
+
+.Social a {
+  color: darkblue;
+  text-decoration: none;
+  margin: 10px;
+}
