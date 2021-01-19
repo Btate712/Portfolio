@@ -7,7 +7,7 @@ import "../styles/About.css";
 const About = ({ isMobile }) => {
   return (
   <div className="About">
-    <img src={ face } width="300px" />
+    <img src={ face } width="300px" alt="headshot"/>
     <h1>About Me</h1>
     <p>
       I'm a US Navy veteran with a background in nuclear operations and training
@@ -31,8 +31,8 @@ const About = ({ isMobile }) => {
     </p>
     <p>
       Please feel free to contact me at <a href = "mailto: btate712@gamil.com">
-        btate712@gmail.com</a>
-      with any questions you may have!
+        btate712@gmail.com</a> or using the social media links below
+        with any questions you may have!
     </p>
     <p>
       Bob Tate
