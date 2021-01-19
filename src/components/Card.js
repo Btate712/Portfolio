@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../styles/Card.css';
 
 
-const Card = ({ isMobile, description, word, codeLocation, location, handleMobileClick, focus, id }) => {
+const Card = ({ isMobile, description, word, codeLocation, location, handleMobileClick, focus, id, videoLocation }) => {
   const [ hasFocus, setHasFocus ] = useState(false);
   
   const links = () => {
@@ -12,6 +12,9 @@ const Card = ({ isMobile, description, word, codeLocation, location, handleMobil
         <br />
         { location &&
           <a href={ location } target="_blank">Launch</a>
+        }
+        { videoLocation && 
+          <a href={ videoLocation } target="_blank">Video</a>
         }
         <a href={ codeLocation } target="_blank">Code</a>
       </div>

@@ -22,6 +22,7 @@ const Cards = ({ isMobile }) => {
           isMobile={ isMobile }
           focus={ mobileFocus === index }
           handleMobileClick={ handleMobileClick }
+          videoLocation={ project.videoLocation }
         />
       );
     });
