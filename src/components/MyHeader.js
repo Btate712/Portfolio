@@ -10,10 +10,10 @@ const MyHeader = props => {
         location="./about"
         word="About"
       />
-      <HeaderChoice
+      {/* <HeaderChoice
         location="./contact"
         word="Contact"
-      />
+      /> */}
     </nav>
   );
 }
