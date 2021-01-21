@@ -17,7 +17,7 @@ const portfolio = [
   },{
     "title": "Bubble Sort Visualizer",
     "description": "A vanilla JS app written to visualize how a bubble sort works" ,
-    "location": "http://www.thetater.net/bubblesort/bubblesort.html",
+    "location": "https://bob-tate-bubble-sort-visualizer.s3.us-east-2.amazonaws.com/bubblesort.html",
     "codeLocation": "https://github.com/Btate712/BubbleSort"
   },{
     "title": "Somm",
