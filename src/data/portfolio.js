@@ -12,7 +12,7 @@ const portfolio = [
   },{
     "title": "2048 Clone",
     "description": "A clone of the game 2048 written in vanilla JS",
-    "location": "http://www.thetater.net/game2448.html",
+    "location": "https://bob-tate-2048-game.s3.us-east-2.amazonaws.com/game2048.html",
     "codeLocation": "https://github.com/Btate712/2048"
   },{
     "title": "Bubble Sort Visualizer",
