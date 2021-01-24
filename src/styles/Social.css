@@ -1,10 +1,14 @@
 .Social {
   color: darkblue;
-  font-size: xx-large;
+  font-size: 65px;
 }
 
 .Social a {
   color: darkblue;
   text-decoration: none;
   margin: 10px;
+}
+
+.Social a:hover {
+  color: dodgerblue;
 }
