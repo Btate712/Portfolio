@@ -29,12 +29,13 @@
 }
 
 .Card a {
-  color: dodgerblue;
-  border: 1px solid dodgerblue;
+  color:darkblue;
+  border: 1px solid darkblue;
   border-radius: 5px;
   padding: 5px 10px 5px 10px;
   text-decoration: none;
   margin: 25px;
+  background: lightblue;
 }
 
 .Card .links {

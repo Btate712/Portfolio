@@ -23,12 +23,23 @@
 }
 
 .About .link {
-  color: darkblue;
   font-weight: bold;
-  border: 1px solid darkblue;
-  padding: 10px;
-  margin: 20px;
-  text-decoration: none;
-  border-radius: 5px;
   float: right;
+}
+
+.About a.link {
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  margin: 25px;
+  background:darkblue;
+  color: lightblue;
+  box-shadow: 2px 2px;
+}
+
+.About a.link:hover {
+  background: lightblue;
+  color:darkblue;
+  box-shadow: 2px 2px;
 }
