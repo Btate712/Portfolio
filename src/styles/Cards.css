@@ -11,4 +11,5 @@
   margin: 0px auto;
   padding: 0;
   flex-wrap: wrap;
+  justify-content: center;
 }
