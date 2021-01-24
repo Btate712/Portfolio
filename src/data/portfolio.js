@@ -1,15 +1,5 @@
 const portfolio = [
   {
-    "title": "Quiz App - React Frontend",
-    "description": "A React application that makes use of the Quiz App API for taking multiple choice quizzes" ,
-    "codeLocation": "https://github.com/Btate712/quiz-react",
-    "videoLocation": "https://www.youtube.com/watch?v=NurMlVhBgQs"
-  },{
-    "title": "Quiz App API",
-    "description": "A Ruby on Rails API for storing multiple choice questions and delivering quizzes using those questions" ,
-    "codeLocation": "https://github.com/Btate712/quiz-api",
-    "videoLocation": "https://www.youtube.com/watch?v=NurMlVhBgQs"
-  },{
     "title": "2048 Clone",
     "description": "A clone of the game 2048 written in vanilla JS",
     "location": "https://bob-tate-2048-game.s3.us-east-2.amazonaws.com/game2048.html",
@@ -19,6 +9,16 @@ const portfolio = [
     "description": "A vanilla JS app written to visualize how a bubble sort works" ,
     "location": "https://bob-tate-bubble-sort-visualizer.s3.us-east-2.amazonaws.com/bubblesort.html",
     "codeLocation": "https://github.com/Btate712/BubbleSort"
+  },{
+    "title": "Quiz App - React Frontend",
+    "description": "A React application that makes use of the Quiz App API for taking multiple choice quizzes" ,
+    "codeLocation": "https://github.com/Btate712/quiz-react",
+    "videoLocation": "https://www.youtube.com/watch?v=NurMlVhBgQs"
+  },{
+    "title": "Quiz App API",
+    "description": "A Ruby on Rails API for storing multiple choice questions and delivering quizzes using those questions" ,
+    "codeLocation": "https://github.com/Btate712/quiz-api",
+    "videoLocation": "https://www.youtube.com/watch?v=NurMlVhBgQs"
   },{
     "title": "Somm",
     "description": "An application written in Ruby on Rails to rate and review wines" ,
