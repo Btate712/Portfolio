@@ -11,12 +11,12 @@ const Card = ({ isMobile, description, word, codeLocation, location, handleMobil
         <br />
         <br />
         { location &&
-          <a href={ location } target="_blank">Launch</a>
+          <a href={ location } target="_blank" rel="noreferrer">Launch</a>
         }
         { videoLocation && 
-          <a href={ videoLocation } target="_blank">Video</a>
+          <a href={ videoLocation } target="_blank" rel="noreferrer">Video</a>
         }
-        <a href={ codeLocation } target="_blank">Code</a>
+        <a href={ codeLocation } target="_blank" rel="noreferrer">Code</a>
       </div>
     )
   }
