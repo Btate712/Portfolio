@@ -11,23 +11,29 @@ const About = ({ isMobile }) => {
     <h1>About Me</h1>
     <p>
       I'm a US Navy veteran with a background in nuclear operations and training
-      and I'm excited about starting a new career in software development.
+      and I'm excited to be building a career in software development.
+    </p>
+    <p>
+      I've been working professionally as a Software Engineer for ~2 years now. I've 
+      been at my current job working for a fantastic company called Relativity since
+      January of 2022. In my current role, I maintain and build on a code base that
+      uses C# on the back end and AngularJS on the front end. In my previous job, I 
+      worked with C# on the back end and Blazor on the front end.
     </p>
     <p>
       I'm a graduate of the Flatiron School Full Stack Software Engineering program
-      and I'm currently enrolled in the Computer Science Bachelor's program at 
+      and I'm currently finishing my Computer Science Bachelor's degree at 
       National Louis University. I'm also a certified AWS developer.
     </p>
     <p>
-      I've built apps using vanilla Javascript and the React framework on the 
-      frontend and Ruby on Rails on the backend. I'm currently learning how
-      to use NodeJS in my spare time.
+      While enrolled with Flatiron school, I built apps using vanilla Javascript and 
+      the React framework on the frontend and Ruby on Rails on the backend. I'm currently 
+      learning how to use NodeJS in my spare time.
     </p>
     <p>
-      I'm looking for an entry level software developer role in the Chicago area
-      or remote. I'd love to know any information you can share with me about how
-      I can find such an opportunity or what I can do to make myself the best 
-      possible candidate for that role when I find it.
+      I'm currently very happy in my role as a Software Engineer at Relativity, but I'm
+      always looking for opportunities to learn more and to work with different technologies. 
+      I'm open to opportunities to contribute to open source codebases in my spare time.
     </p>
     <p>
       Please feel free to contact me at <a href = "mailto: btate712@gamil.com">
