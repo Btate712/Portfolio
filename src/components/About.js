@@ -33,7 +33,8 @@ const About = ({ isMobile }) => {
     <p>
       I'm currently very happy in my role as a Software Engineer at Relativity, but I'm
       always looking for opportunities to learn more and to work with different technologies. 
-      I'm open to opportunities to contribute to open source codebases in my spare time.
+      I'm open to opportunities to contribute to open source codebases and
+      short-term, part-time contract work that I can do in my spare time.
     </p>
     <p>
       Please feel free to contact me at <a href = "mailto: btate712@gamil.com">
