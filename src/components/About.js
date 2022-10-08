@@ -14,7 +14,7 @@ const About = ({ isMobile }) => {
       and I'm excited to be building a career in software development.
     </p>
     <p>
-      I've been working professionally as a Software Engineer for ~2 years now. I've 
+      I'm in my second year of working professionally as a Software Engineer. I've 
       been at my current job working for a fantastic company called Relativity since
       January of 2022. In my current role, I maintain and build on a code base that
       uses C# on the back end and AngularJS on the front end. In my previous job, I 
