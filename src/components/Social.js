@@ -11,9 +11,6 @@ const Social = () => {
       <a href="https://www.linkedin.com/in/robert-k-tate/">
         <i class="fa fa-linkedin-square"></i>
       </a>
-      <a href="https://twitter.com/RobertKTate1">
-        <i class="fa fa-twitter-square"></i>
-      </a>
     </div>
   );
 }
